@@ -3,7 +3,7 @@ EXAM
   
 ## CPU SCHEDULING ALGORITHMS
 IMPLEMENTATION OF FIRST COME FIRST SERVE SCHEDULING 
-  
+ ``` 
   #include<stdio.h>
 int main()
 {
@@ -40,7 +40,8 @@ avg_tat=(float)total/n; //average turnaround time
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
-
+```
+```
 
 ## CPU SCHEDULING ALGORITHMS
 Date IMPLEMENTATION OF SHORTEST JOB FIRST SCHEDULING
@@ -97,7 +98,8 @@ avg_tat=(float)total/n; //average turnaround time
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
-
+```
+```
 ## CPU SCHEDULING ALGORITHMS
 Date IMPLEMENTATION OF PRIORITY SCHEDULING
 
@@ -160,7 +162,8 @@ avg_tat=(float)total/n; //average turnaround time
 printf("\n\nAverage Waiting Time=%f",avg_wt);
 printf("\nAverage Turnaround Time=%f\n",avg_tat);
 }
-
+``` 
+```
 ## CPU SCHEDULING ALGORITHMS
 Date IMPLEMENTATION OF ROUND-ROBIN SCHEDULING
 
@@ -218,7 +221,8 @@ for(i=0;i<n;i++)
 printf("%d\t\t %d\t\t %d\t\t %d\n",i+1,bt[i],wt[i],tat[i]); printf("avg
 wt time=%f,avg turn around time=%f",awt,atat);
 }
-
+```
+```
 ## INTER PROCESS COMMUNICATIONS
 
 #include <stdio.h>
@@ -241,7 +245,8 @@ read(fd[0],a,5);
 printf("The string received from pipe is: %s",a);
 }
 return 0;
-
+```
+```
 ## SYSTEM CALLS
 (READ & WRITE, CREATE &FORK, OPEN
 &CLOSE)
@@ -270,7 +275,8 @@ close(f2);
 fork();
 return 0;
 }
-
+```
+```
 ## IMPLEMENT BANKERS’ ALGORITHM FOR DEAD
 LOCKAVOIDANCE
 #include<stdio.h>
@@ -400,7 +406,8 @@ printf ("\nThe system is in an unsafe
 state!!");
 return 0;
 }
-
+```
+```
 ## PAGING TECHNIQUE OF MEMORY MANAGEMENT
 #include<stdio.h>
 #include<conio.h>
@@ -442,7 +449,8 @@ printf("\nThe Physical Address is -- %d",pa);
 }
 getch();
 }
-
+```
+```
 ## PAGE REPLACEMENT ALGORITHM(FIFO)
 
 #include<stdio.h>
@@ -480,7 +488,8 @@ printf("\n");
 printf("\nPage Fault Is %d",count);
 return 0;
 }
-
+```
+```
 ## PAGE REPLACEMENT ALGORITHM (LRU)
 
 #include<stdio.h>
@@ -556,7 +565,8 @@ printf("\n");
 }
 printf("\nThe no of page faults is %d",c);
 }
-
+```
+```
 ## PAGE REPLACEMENT ALGORITHM (OPR)
 
 #include<stdio.h>
@@ -594,7 +604,8 @@ printf("\n");
 printf("Page Fault Is %d",count);
 return 0;
 }
-
+```
+```
 ## DISK SCHEDULING FIRST COME FIRST SERVE
 
 #include <stdio.h>
@@ -617,7 +628,8 @@ initial=RQ[i];
 printf("Total head moment is %d",TotalHeadMoment);
 return 0;
 }
-
+```
+```
 ## DISK SCHEDULING SHORTEST SEEK TIME FIRST
 
 #include<stdio.h>
@@ -653,7 +665,8 @@ printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
 
-
+```
+```
 ## DISK SCHEDULING SCAN
 
 #include<stdio.h>
@@ -728,6 +741,8 @@ initial=RQ[i];
 printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
+```
+```
 ## DISK SCHEDULING LOOK 
 
 #include<stdio.h>
@@ -797,7 +812,8 @@ initial=RQ[i];
 printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
-
+```
+```
 
 ## FILE MANAGEMENT USING SEQUENTIAL ALLOCATION 
 
@@ -837,7 +853,8 @@ else
 exit();
 getch();
 }
-
+```
+```
 ## FILE MANAGEMENT USING INDEXED ALLOCATION 
 
 #include<stdio.h>
@@ -891,7 +908,8 @@ else
 exit(0);
 getch();
 }
-
+```
+```
 ## FILE MANAGEMENT USING LINKED ALLOCATION 
 
 #include <stdio.h>
@@ -940,4 +958,4 @@ recursivePart(pages);
 getch();
 return 0;
 }
-
+```
